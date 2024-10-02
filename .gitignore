@@ -15,12 +15,12 @@ Python/poetry.lock
 
 
 # Unreal Engine
-UnrealEngine/Binaries/
-UnrealEngine/DerivedDataCache/
-UnrealEngine/Intermediate/
-UnrealEngine/Saved/
-UnrealEngine/.vs/
-UnrealEngine/*.sln
+UnrealEngine/HandControlGame/Binaries/
+UnrealEngine/HandControlGame/DerivedDataCache/
+UnrealEngine/HandControlGame/Intermediate/
+UnrealEngine/HandControlGame/Saved/
+UnrealEngine/HandControlGame/.vs/
+UnrealEngine/HandControlGame/*.sln
 
 # Ignore Unreal Engine binary, intermediate, and build files
 *.pdb
