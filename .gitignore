@@ -47,10 +47,10 @@ UnrealEngine/*.sln
 *.unsuccessfulbuild
 
 # Ignore Unreal Engine asset files (use LFS for these)
-*.uasset
-*.umap
-*.ubulk
-*.uexp
+# *.uasset
+# *.umap
+# *.ubulk
+# *.uexp
 
 # Ignore any autosave or backup files
 Backup/
