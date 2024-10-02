@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "HandControlGame",
+			"Path": "..\\Source\\HandControlGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "HandControlGameEditor",
+			"Path": "..\\Source\\HandControlGameEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

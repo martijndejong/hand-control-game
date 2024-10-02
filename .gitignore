@@ -1,0 +1,73 @@
+# General
+.DS_Store
+Thumbs.db
+
+# Python
+Python/__pycache__/
+Python/**/*.pyc
+Python/.venv/
+Python/poetry.lock
+
+# Ignore build-specific files
+*.VC.db
+*.VC.opendb
+.vscode/
+
+
+# Unreal Engine
+UnrealEngine/Binaries/
+UnrealEngine/DerivedDataCache/
+UnrealEngine/Intermediate/
+UnrealEngine/Saved/
+UnrealEngine/.vs/
+UnrealEngine/*.sln
+
+# Ignore Unreal Engine binary, intermediate, and build files
+*.pdb
+*.obj
+*.o
+*.exe
+*.dll
+*.log
+*.dump
+*.app
+*.pkg
+*.dSYM/
+*.ini
+*.target
+*.targets
+*.csproj
+*.sln
+*.pch
+
+# Ignore config files specific to a user's machine
+*.suo
+*.user
+*.userosscache
+*.unsuccessfulbuild
+
+# Ignore Unreal Engine asset files (use LFS for these)
+*.uasset
+*.umap
+*.ubulk
+*.uexp
+
+# Ignore any autosave or backup files
+Backup/
+*.autosave
+
+# Ignore derived class data (if generated)
+*.generated.cpp
+*.generated.h
+
+# Ignore crash reports
+CrashReportClient/
+
+# Ignore other temp files
+*.tmp
+*.swp
+*.bak
+*.lock
+*.cache
+*.dat
+*.db

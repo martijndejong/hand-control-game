@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\github\\hand-control-game\\unrealengine\\handcontrolgame\\source\\handcontrolgame\\handcontrolgame.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\github\\hand-control-game\\unrealengine\\handcontrolgame\\intermediate\\build\\win64\\x64\\handcontrolgameeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\github\\hand-control-game\\unrealengine\\handcontrolgame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\handcontrolgame\\definitions.handcontrolgame.h",
+            "c:\\github\\hand-control-game\\unrealengine\\handcontrolgame\\source\\handcontrolgame\\handcontrolgame.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
