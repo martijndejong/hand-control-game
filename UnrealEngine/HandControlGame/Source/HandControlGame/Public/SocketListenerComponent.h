@@ -48,7 +48,7 @@ private:
     // Functions
     void InitializeSocket();
     void ShutdownSocket();
-    void HandleReceivedData(const FString& Data);
+    void HandleReceivedData(FString& Buffer);
 
 public:
     // Delegate for broadcasting action events

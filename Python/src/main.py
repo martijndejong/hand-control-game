@@ -4,6 +4,7 @@ from hand_tracking.hand_tracking_utils import HandTracker
 from hand_tracking.gesture_recognition import recognize_gesture
 from communication.socket_client import SocketClient
 import json
+import time
 
 
 def main():
@@ -62,12 +63,14 @@ def main():
                 stop_message = json.dumps({"action": previous_gesture, "state": "stop"})
                 socket_client.send_message(stop_message)
                 print(f"Sent stop message: {stop_message}")
+                time.sleep(0.01)  # Sleep for 10 milliseconds
 
             if gesture:
                 # Send start message for the new gesture
                 start_message = json.dumps({"action": gesture, "state": "start"})
                 socket_client.send_message(start_message)
                 print(f"Sent start message: {start_message}")
+                time.sleep(0.01)  # Sleep for 10 milliseconds
 
             previous_gesture = gesture
 
